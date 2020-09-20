@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerUI", "ManagerUI\ManagerUI.csproj", "{CC5624CE-2EA0-40F4-ADAF-53B8982421DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA_API", "SPA_API\SPA_API\SPA_API.csproj", "{5509AB02-77E0-4ADF-9E62-F89BD11C4311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5624CE-2EA0-40F4-ADAF-53B8982421DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5624CE-2EA0-40F4-ADAF-53B8982421DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5624CE-2EA0-40F4-ADAF-53B8982421DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5624CE-2EA0-40F4-ADAF-53B8982421DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE566D92-DB84-454B-927C-406320B885E9}
+	EndGlobalSection
+EndGlobal
