@@ -2556,11 +2556,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\2017-2021\\2019-2020\\HKIII\\PTUDHTTTHD\\Project_PTUD\\SpaProject\\SpaProject\\SpaProject.csproj",
+      "projectUniqueName": "F:\\PTUDHTTT\\SpaProject\\SpaProject.csproj",
       "projectName": "SpaProject",
-      "projectPath": "G:\\2017-2021\\2019-2020\\HKIII\\PTUDHTTTHD\\Project_PTUD\\SpaProject\\SpaProject\\SpaProject.csproj",
+      "projectPath": "F:\\PTUDHTTT\\SpaProject\\SpaProject.csproj",
       "packagesPath": "C:\\Users\\84933\\.nuget\\packages\\",
-      "outputPath": "G:\\2017-2021\\2019-2020\\HKIII\\PTUDHTTTHD\\Project_PTUD\\SpaProject\\SpaProject\\obj\\",
+      "outputPath": "F:\\PTUDHTTT\\SpaProject\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

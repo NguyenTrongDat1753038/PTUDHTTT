@@ -28,6 +28,7 @@ namespace ManagerUI.UI.Users
 
         private void UserManage_Load(object sender, EventArgs e)
         {
+            GetUserAsync();
 
         }
         /*private async void GetUserAsync()

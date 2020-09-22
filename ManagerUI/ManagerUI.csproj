@@ -180,6 +180,12 @@
     <Compile Include="UI\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Room\RoomInsert_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Room\RoomInsert_Update.Designer.cs">
+      <DependentUpon>RoomInsert_Update.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Room\RoomManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Outlet\OutletManage.resx">
       <DependentUpon>OutletManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Room\RoomInsert_Update.resx">
+      <DependentUpon>RoomInsert_Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Room\RoomManage.resx">
       <DependentUpon>RoomManage.cs</DependentUpon>

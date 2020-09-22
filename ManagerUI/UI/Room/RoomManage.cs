@@ -6,6 +6,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Linq;
 using System.Net.Http;
+using System.Threading.Tasks;
+using System.Windows.Data;
 using System.Windows.Forms;
 
 namespace ManagerUI.UI.Room
@@ -28,9 +30,7 @@ namespace ManagerUI.UI.Room
             cn_cmb.Items.Clear();
             foreach (var i in data)
             {
-                string t = i.ToString();
-                t = t.Substring(15, 8);
-                cn_cmb.Items.Add(t);
+                cn_cmb.Items.Add(i.ID_CHINHANH);
             }
         }
         private void RoomManage_Load(object sender, EventArgs e)
@@ -74,26 +74,37 @@ namespace ManagerUI.UI.Room
 
         }
 
-        private async void GetPhongAsync(int cn)
+        private async Task<IList<PHONG>> GetPhongAsync(int cn)
         {
             string basepath = ProvidingConnection.basepath;
-            string path = basepath + "/api/PHONGs";
+            string path = basepath + "/api/" + "PHONGs";
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(basepath);
             HttpResponseMessage response = client.GetAsync(path).Result;
-
-            var result = await response.Content.ReadAsStringAsync();
-
-            IList<PHONG> rm = JsonConvert.DeserializeObject<IList<PHONG>>(result);
-            var cols = from d in rm select new { d.ID_PHONG, d.ID_CHINHANH,d.LOAI,d.MOTA};
-            cols = cols.Where(c => c.ID_CHINHANH == cn);
-            UserView.DataSource = null;
-            UserView.DataSource = cols;
+            var ps = await response.Content.ReadAsAsync<IList<PHONG>>();
+            IList<PHONG> results = ps
+                             .Where(e => e.ID_CHINHANH == cn)
+                             .ToList();
+            //DataView dv = (DataView)ps;
+            UserView.DataSource = results;
             UserView.Columns[1].Visible = false;
+            UserView.Columns[5].Visible = false;
+            UserView.Columns[4].Visible = false;
+            return results;
+
         }
         private void LoadBtn_Click(object sender, EventArgs e)
         {
-            //GetPhongAsync(Convert.ToInt32(cn_cmb.Text));
+            try
+            {
+                UserView.DataSource = null;
+                UserView.Rows.Clear();
+                GetPhongAsync(Convert.ToInt32(cn_cmb.Text));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

@@ -36,6 +36,17 @@ namespace ManagerUI.UI.Outlet
             UserView.Columns[5].Visible = false;
             UserView.Columns[6].Visible = false;
             UserView.Columns[7].Visible = false;
+            foreach (DataGridViewRow row in UserView.Rows)
+            {
+                if (Convert.ToBoolean(row.Cells[4].Value) == true)
+                {
+                    row.DefaultCellStyle.BackColor = Color.LightCyan;
+                }
+                else
+                {
+                    row.DefaultCellStyle.BackColor = Color.IndianRed;
+                }
+            }
             return cn;
         }
 

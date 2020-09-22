@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WCzBsgKGH9C7bRuq97MqPAZ8X1D9z2xaItdnZfc4TwXJygX/oJ2T9Uc5/JFM0dYssVgZlXjBC8XnRiyC9rhpKg==",
+  "dgSpecHash": "e0Qf9H131Zu6sFXneTrZdr//adoPJXEBkdftR97FoKFoOAVwiogO7EM1zD/ZhFqbAMLsW9PyaRwkgxrwbisgnA==",
   "success": true,
-  "projectFilePath": "G:\\2017-2021\\2019-2020\\HKIII\\PTUDHTTTHD\\Project_PTUD\\SpaProject\\SpaProject\\SpaProject.csproj",
+  "projectFilePath": "F:\\PTUDHTTT\\SpaProject\\SpaProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84933\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\84933\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
