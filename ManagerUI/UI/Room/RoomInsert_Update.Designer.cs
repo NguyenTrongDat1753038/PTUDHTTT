@@ -40,7 +40,7 @@
             this.insert_btn = new ReaLTaiizor.Controls.HopeButton();
             this.skyLabel2 = new ReaLTaiizor.Controls.SkyLabel();
             this.skyLabel1 = new ReaLTaiizor.Controls.SkyLabel();
-            this.idcn = new ReaLTaiizor.Controls.ForeverComboBox();
+            this.idcn = new ReaLTaiizor.Controls.ForeverTextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -192,6 +192,7 @@
             this.update_btn.Text = "Cập nhật phòng";
             this.update_btn.TextColor = System.Drawing.Color.Black;
             this.update_btn.WarningColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(162)))), ((int)(((byte)(60)))));
+            this.update_btn.Click += new System.EventHandler(this.update_btn_Click);
             // 
             // cancel_btn
             // 
@@ -232,6 +233,7 @@
             this.insert_btn.Text = "Thêm phòng";
             this.insert_btn.TextColor = System.Drawing.Color.Black;
             this.insert_btn.WarningColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(162)))), ((int)(((byte)(60)))));
+            this.insert_btn.Click += new System.EventHandler(this.insert_btn_Click);
             // 
             // skyLabel2
             // 
@@ -257,25 +259,20 @@
             // 
             // idcn
             // 
-            this.idcn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(27)))), ((int)(((byte)(29)))));
-            this.idcn.BGColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
-            this.idcn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.idcn.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.idcn.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.idcn.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.idcn.ForeColor = System.Drawing.Color.White;
-            this.idcn.FormattingEnabled = true;
-            this.idcn.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-            this.idcn.HoverFontColor = System.Drawing.Color.White;
-            this.idcn.ItemHeight = 18;
-            this.idcn.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3"});
-            this.idcn.Location = new System.Drawing.Point(313, 43);
+            this.idcn.BackColor = System.Drawing.Color.Transparent;
+            this.idcn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
+            this.idcn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+            this.idcn.FocusOnHover = false;
+            this.idcn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.idcn.Location = new System.Drawing.Point(313, 37);
+            this.idcn.MaxLength = 32767;
+            this.idcn.Multiline = false;
             this.idcn.Name = "idcn";
-            this.idcn.Size = new System.Drawing.Size(181, 24);
+            this.idcn.ReadOnly = true;
+            this.idcn.Size = new System.Drawing.Size(196, 34);
             this.idcn.TabIndex = 24;
+            this.idcn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.idcn.UseSystemPasswordChar = false;
             // 
             // RoomInsert_Update
             // 
@@ -284,6 +281,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Name = "RoomInsert_Update";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RoomInsert_Update";
             this.Load += new System.EventHandler(this.RoomInsert_Update_Load);
             this.groupBox1.ResumeLayout(false);
@@ -306,6 +304,6 @@
         private ReaLTaiizor.Controls.SkyLabel skyLabel1;
         private ReaLTaiizor.Controls.ForeverTextBox chuthich;
         private ReaLTaiizor.Controls.ForeverComboBox loai;
-        private ReaLTaiizor.Controls.ForeverComboBox idcn;
+        private ReaLTaiizor.Controls.ForeverTextBox idcn;
     }
 }

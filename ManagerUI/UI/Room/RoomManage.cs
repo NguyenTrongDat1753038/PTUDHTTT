@@ -63,15 +63,32 @@ namespace ManagerUI.UI.Room
                 menu.Show(Cursor.Position.X, Cursor.Position.Y);
             }
         }
-
+        public int status;
         private void thêmPhòngMớiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            trans = new PHONG();
+            trans.ID_CHINHANH = (int)UserView.SelectedRows[0].Cells[1].Value;
+            status = 0;
+            RoomInsert_Update frm = new RoomInsert_Update();
+            frm.status = 0;
+            frm.trans = trans;
+            frm.ShowDialog();
+            GetPhongAsync(Convert.ToInt32(cn_cmb.Text));
         }
-
+        PHONG trans;
         private void cậpNhậtPhòngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            trans = new PHONG();
+            trans.ID_PHONG = (int)UserView.SelectedRows[0].Cells[0].Value;
+            trans.ID_CHINHANH = (int)UserView.SelectedRows[0].Cells[1].Value;
+            trans.LOAI = (int)UserView.SelectedRows[0].Cells[2].Value;
+            trans.MOTA = UserView.SelectedRows[0].Cells[3].Value.ToString();
+            status = 1;
+            RoomInsert_Update frm = new RoomInsert_Update();
+            frm.status = status;
+            frm.trans = trans;
+            frm.ShowDialog();
+            GetPhongAsync(Convert.ToInt32(cn_cmb.Text));
         }
 
         private async Task<IList<PHONG>> GetPhongAsync(int cn)
