@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
+using System.Web.Mvc;
 using SPA_API.Models;
 
 namespace SPA_API.Controllers
@@ -106,6 +107,21 @@ namespace SPA_API.Controllers
         public async Task<IHttpActionResult> DeleteCHITIET_GIUONG(int id)
         {
             CHITIET_GIUONG cHITIET_GIUONG = await db.CHITIET_GIUONG.FindAsync(id);
+            if (cHITIET_GIUONG == null)
+            {
+                return NotFound();
+            }
+
+            db.CHITIET_GIUONG.Remove(cHITIET_GIUONG);
+            await db.SaveChangesAsync();
+
+            return Ok(cHITIET_GIUONG);
+        }
+        // DELETE: api/CHITIET_GIUONG with multiple 
+        public async Task<IHttpActionResult> DeleteCHITIET_GIUONG(int id,int sr)
+        {
+
+            CHITIET_GIUONG cHITIET_GIUONG = await db.CHITIET_GIUONG.FindAsync(id,sr);
             if (cHITIET_GIUONG == null)
             {
                 return NotFound();

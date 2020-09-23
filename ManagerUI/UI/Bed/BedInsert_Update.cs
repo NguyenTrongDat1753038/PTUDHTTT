@@ -56,6 +56,7 @@ namespace ManagerUI.UI.Bed
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 var gizmo = new GIUONG();
                 gizmo.ID_PHONG = trans.ID_PHONG;
+                gizmo.ID_GIUONG = trans.ID_GIUONG;
                 gizmo.MOTA = mota.Text;
                 try
                 {
@@ -84,7 +85,7 @@ namespace ManagerUI.UI.Bed
             idp.ReadOnly = true;
             idp.Text = trans.ID_PHONG.ToString();
             idg.ReadOnly = true;
-            idg.Text = trans.ID_GIUONG.ToString();
+            idg.Text = trans.ID_GIUONG == null ? "" : trans.ID_GIUONG.ToString();
             if (status == 0)
             {
                 insert_btn.Enabled = true;

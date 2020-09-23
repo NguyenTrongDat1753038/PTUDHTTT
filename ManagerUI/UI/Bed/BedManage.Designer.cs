@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.UserView = new System.Windows.Forms.DataGridView();
             this.hopeRoundButton1 = new ReaLTaiizor.Controls.HopeRoundButton();
             this.LoadBtn = new ReaLTaiizor.Controls.HopeRoundButton();
@@ -43,6 +43,7 @@
             this.thêmPhòngMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cậpNhậtPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chiTiếtGiườngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xoáGiườngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.UserView)).BeginInit();
             this.menu.SuspendLayout();
             this.SuspendLayout();
@@ -50,49 +51,49 @@
             // UserView
             // 
             this.UserView.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            this.UserView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            this.UserView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.UserView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.UserView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.UserView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.UserView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.UserView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.UserView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.UserView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.UserView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.UserView.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.UserView.DefaultCellStyle = dataGridViewCellStyle7;
             this.UserView.Dock = System.Windows.Forms.DockStyle.Right;
             this.UserView.Location = new System.Drawing.Point(324, 0);
             this.UserView.MultiSelect = false;
             this.UserView.Name = "UserView";
             this.UserView.ReadOnly = true;
             this.UserView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.UserView.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.UserView.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.UserView.RowHeadersVisible = false;
             this.UserView.RowHeadersWidth = 51;
             this.UserView.RowTemplate.Height = 24;
@@ -227,31 +228,39 @@
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thêmPhòngMớiToolStripMenuItem,
             this.cậpNhậtPhòngToolStripMenuItem,
-            this.chiTiếtGiườngToolStripMenuItem});
+            this.chiTiếtGiườngToolStripMenuItem,
+            this.xoáGiườngToolStripMenuItem});
             this.menu.MouseState = ReaLTaiizor.Helpers.MaterialDrawHelper.MaterialMouseState.HOVER;
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(211, 104);
+            this.menu.Size = new System.Drawing.Size(211, 128);
             // 
             // thêmPhòngMớiToolStripMenuItem
             // 
             this.thêmPhòngMớiToolStripMenuItem.Name = "thêmPhòngMớiToolStripMenuItem";
-            this.thêmPhòngMớiToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.thêmPhòngMớiToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
             this.thêmPhòngMớiToolStripMenuItem.Text = "Thêm giường";
             this.thêmPhòngMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmPhòngMớiToolStripMenuItem_Click);
             // 
             // cậpNhậtPhòngToolStripMenuItem
             // 
             this.cậpNhậtPhòngToolStripMenuItem.Name = "cậpNhậtPhòngToolStripMenuItem";
-            this.cậpNhậtPhòngToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.cậpNhậtPhòngToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
             this.cậpNhậtPhòngToolStripMenuItem.Text = "Cập nhật giường";
             this.cậpNhậtPhòngToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậtPhòngToolStripMenuItem_Click);
             // 
             // chiTiếtGiườngToolStripMenuItem
             // 
             this.chiTiếtGiườngToolStripMenuItem.Name = "chiTiếtGiườngToolStripMenuItem";
-            this.chiTiếtGiườngToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.chiTiếtGiườngToolStripMenuItem.Text = "Chi tiết giường";
+            this.chiTiếtGiườngToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.chiTiếtGiườngToolStripMenuItem.Text = "Dịch vụ giường";
             this.chiTiếtGiườngToolStripMenuItem.Click += new System.EventHandler(this.chiTiếtGiườngToolStripMenuItem_Click);
+            // 
+            // xoáGiườngToolStripMenuItem
+            // 
+            this.xoáGiườngToolStripMenuItem.Name = "xoáGiườngToolStripMenuItem";
+            this.xoáGiườngToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.xoáGiườngToolStripMenuItem.Text = "Xoá giường";
+            this.xoáGiườngToolStripMenuItem.Click += new System.EventHandler(this.xoáGiườngToolStripMenuItem_Click);
             // 
             // BedManage
             // 
@@ -288,5 +297,6 @@
         private System.Windows.Forms.ToolStripMenuItem thêmPhòngMớiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cậpNhậtPhòngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chiTiếtGiườngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xoáGiườngToolStripMenuItem;
     }
 }
