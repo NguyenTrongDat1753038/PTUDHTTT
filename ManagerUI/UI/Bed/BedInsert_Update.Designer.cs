@@ -1,6 +1,6 @@
-﻿namespace ManagerUI.UI.Room
+﻿namespace ManagerUI.UI.Bed
 {
-    partial class RoomInsert_Update
+    partial class BedInsert_Update
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,15 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new ReaLTaiizor.Controls.GroupBox();
-            this.idcn = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.chuthich = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.loai = new ReaLTaiizor.Controls.ForeverComboBox();
             this.idp = new ReaLTaiizor.Controls.ForeverTextBox();
             this.skyLabel3 = new ReaLTaiizor.Controls.SkyLabel();
             this.mota = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.skyLabel4 = new ReaLTaiizor.Controls.SkyLabel();
             this.update_btn = new ReaLTaiizor.Controls.HopeButton();
             this.cancel_btn = new ReaLTaiizor.Controls.HopeButton();
             this.insert_btn = new ReaLTaiizor.Controls.HopeButton();
             this.skyLabel2 = new ReaLTaiizor.Controls.SkyLabel();
-            this.skyLabel1 = new ReaLTaiizor.Controls.SkyLabel();
+            this.idg = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.skyLabel5 = new ReaLTaiizor.Controls.SkyLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,18 +48,15 @@
             this.groupBox1.BaseColor = System.Drawing.Color.Transparent;
             this.groupBox1.BorderColorG = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(159)))), ((int)(((byte)(161)))));
             this.groupBox1.BorderColorH = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(180)))), ((int)(((byte)(186)))));
-            this.groupBox1.Controls.Add(this.idcn);
-            this.groupBox1.Controls.Add(this.chuthich);
-            this.groupBox1.Controls.Add(this.loai);
+            this.groupBox1.Controls.Add(this.idg);
+            this.groupBox1.Controls.Add(this.skyLabel5);
             this.groupBox1.Controls.Add(this.idp);
             this.groupBox1.Controls.Add(this.skyLabel3);
             this.groupBox1.Controls.Add(this.mota);
-            this.groupBox1.Controls.Add(this.skyLabel4);
             this.groupBox1.Controls.Add(this.update_btn);
             this.groupBox1.Controls.Add(this.cancel_btn);
             this.groupBox1.Controls.Add(this.insert_btn);
             this.groupBox1.Controls.Add(this.skyLabel2);
-            this.groupBox1.Controls.Add(this.skyLabel1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
@@ -73,66 +67,8 @@
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 28, 5, 5);
             this.groupBox1.Size = new System.Drawing.Size(800, 450);
             this.groupBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.Text = "Thêm/ Cập nhật phòng";
-            // 
-            // idcn
-            // 
-            this.idcn.BackColor = System.Drawing.Color.Transparent;
-            this.idcn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
-            this.idcn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-            this.idcn.FocusOnHover = false;
-            this.idcn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.idcn.Location = new System.Drawing.Point(313, 37);
-            this.idcn.MaxLength = 32767;
-            this.idcn.Multiline = false;
-            this.idcn.Name = "idcn";
-            this.idcn.ReadOnly = true;
-            this.idcn.Size = new System.Drawing.Size(196, 34);
-            this.idcn.TabIndex = 24;
-            this.idcn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.idcn.UseSystemPasswordChar = false;
-            // 
-            // chuthich
-            // 
-            this.chuthich.BackColor = System.Drawing.Color.Transparent;
-            this.chuthich.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
-            this.chuthich.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-            this.chuthich.FocusOnHover = false;
-            this.chuthich.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.chuthich.Location = new System.Drawing.Point(461, 128);
-            this.chuthich.MaxLength = 32767;
-            this.chuthich.Multiline = false;
-            this.chuthich.Name = "chuthich";
-            this.chuthich.ReadOnly = true;
-            this.chuthich.Size = new System.Drawing.Size(196, 34);
-            this.chuthich.TabIndex = 23;
-            this.chuthich.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.chuthich.UseSystemPasswordChar = false;
-            this.chuthich.TextChanged += new System.EventHandler(this.chuthich_TextChanged);
-            // 
-            // loai
-            // 
-            this.loai.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(27)))), ((int)(((byte)(29)))));
-            this.loai.BGColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
-            this.loai.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.loai.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.loai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.loai.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.loai.ForeColor = System.Drawing.Color.White;
-            this.loai.FormattingEnabled = true;
-            this.loai.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-            this.loai.HoverFontColor = System.Drawing.Color.White;
-            this.loai.ItemHeight = 18;
-            this.loai.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3"});
-            this.loai.Location = new System.Drawing.Point(313, 131);
-            this.loai.Name = "loai";
-            this.loai.Size = new System.Drawing.Size(121, 24);
-            this.loai.TabIndex = 22;
-            this.loai.SelectedIndexChanged += new System.EventHandler(this.foreverComboBox1_SelectedIndexChanged);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.Text = "Thêm/ Cập nhật giường";
             // 
             // idp
             // 
@@ -141,7 +77,7 @@
             this.idp.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.idp.FocusOnHover = false;
             this.idp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.idp.Location = new System.Drawing.Point(313, 83);
+            this.idp.Location = new System.Drawing.Point(313, 98);
             this.idp.MaxLength = 32767;
             this.idp.Multiline = false;
             this.idp.Name = "idp";
@@ -156,7 +92,7 @@
             this.skyLabel3.AutoSize = true;
             this.skyLabel3.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.skyLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
-            this.skyLabel3.Location = new System.Drawing.Point(81, 83);
+            this.skyLabel3.Location = new System.Drawing.Point(81, 98);
             this.skyLabel3.Name = "skyLabel3";
             this.skyLabel3.Size = new System.Drawing.Size(111, 28);
             this.skyLabel3.TabIndex = 20;
@@ -169,7 +105,7 @@
             this.mota.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.mota.FocusOnHover = false;
             this.mota.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.mota.Location = new System.Drawing.Point(313, 182);
+            this.mota.Location = new System.Drawing.Point(313, 231);
             this.mota.MaxLength = 32767;
             this.mota.Multiline = false;
             this.mota.Name = "mota";
@@ -178,17 +114,6 @@
             this.mota.TabIndex = 15;
             this.mota.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.mota.UseSystemPasswordChar = false;
-            // 
-            // skyLabel4
-            // 
-            this.skyLabel4.AutoSize = true;
-            this.skyLabel4.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skyLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
-            this.skyLabel4.Location = new System.Drawing.Point(81, 43);
-            this.skyLabel4.Name = "skyLabel4";
-            this.skyLabel4.Size = new System.Drawing.Size(152, 28);
-            this.skyLabel4.TabIndex = 11;
-            this.skyLabel4.Text = "ID Chi nhánh";
             // 
             // update_btn
             // 
@@ -258,33 +183,50 @@
             this.skyLabel2.AutoSize = true;
             this.skyLabel2.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.skyLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
-            this.skyLabel2.Location = new System.Drawing.Point(81, 188);
+            this.skyLabel2.Location = new System.Drawing.Point(81, 237);
             this.skyLabel2.Name = "skyLabel2";
             this.skyLabel2.Size = new System.Drawing.Size(73, 28);
             this.skyLabel2.TabIndex = 1;
             this.skyLabel2.Text = "Mô tả";
             // 
-            // skyLabel1
+            // idg
             // 
-            this.skyLabel1.AutoSize = true;
-            this.skyLabel1.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skyLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
-            this.skyLabel1.Location = new System.Drawing.Point(81, 128);
-            this.skyLabel1.Name = "skyLabel1";
-            this.skyLabel1.Size = new System.Drawing.Size(133, 28);
-            this.skyLabel1.TabIndex = 0;
-            this.skyLabel1.Text = "Loại phòng";
+            this.idg.BackColor = System.Drawing.Color.Transparent;
+            this.idg.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
+            this.idg.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+            this.idg.FocusOnHover = false;
+            this.idg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.idg.Location = new System.Drawing.Point(313, 161);
+            this.idg.MaxLength = 32767;
+            this.idg.Multiline = false;
+            this.idg.Name = "idg";
+            this.idg.ReadOnly = true;
+            this.idg.Size = new System.Drawing.Size(344, 34);
+            this.idg.TabIndex = 26;
+            this.idg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.idg.UseSystemPasswordChar = false;
             // 
-            // RoomInsert_Update
+            // skyLabel5
+            // 
+            this.skyLabel5.AutoSize = true;
+            this.skyLabel5.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.skyLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
+            this.skyLabel5.Location = new System.Drawing.Point(81, 161);
+            this.skyLabel5.Name = "skyLabel5";
+            this.skyLabel5.Size = new System.Drawing.Size(125, 28);
+            this.skyLabel5.TabIndex = 25;
+            this.skyLabel5.Text = "ID Giường";
+            // 
+            // BedInsert_Update
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
-            this.Name = "RoomInsert_Update";
+            this.Name = "BedInsert_Update";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RoomInsert_Update";
-            this.Load += new System.EventHandler(this.RoomInsert_Update_Load);
+            this.Text = "BedInsert_Update";
+            this.Load += new System.EventHandler(this.BedInsert_Update_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -297,14 +239,11 @@
         private ReaLTaiizor.Controls.ForeverTextBox idp;
         private ReaLTaiizor.Controls.SkyLabel skyLabel3;
         private ReaLTaiizor.Controls.ForeverTextBox mota;
-        private ReaLTaiizor.Controls.SkyLabel skyLabel4;
         private ReaLTaiizor.Controls.HopeButton update_btn;
         private ReaLTaiizor.Controls.HopeButton cancel_btn;
         private ReaLTaiizor.Controls.HopeButton insert_btn;
         private ReaLTaiizor.Controls.SkyLabel skyLabel2;
-        private ReaLTaiizor.Controls.SkyLabel skyLabel1;
-        private ReaLTaiizor.Controls.ForeverTextBox chuthich;
-        private ReaLTaiizor.Controls.ForeverComboBox loai;
-        private ReaLTaiizor.Controls.ForeverTextBox idcn;
+        private ReaLTaiizor.Controls.ForeverTextBox idg;
+        private ReaLTaiizor.Controls.SkyLabel skyLabel5;
     }
 }

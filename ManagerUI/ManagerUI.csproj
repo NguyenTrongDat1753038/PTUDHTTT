@@ -159,6 +159,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Register.cs" />
+    <Compile Include="UI\Bed\BedInsert_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Bed\BedInsert_Update.Designer.cs">
+      <DependentUpon>BedInsert_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Bed\BedManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Bed\BedManage.Designer.cs">
+      <DependentUpon>BedManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Outlet\OutletInsert_Update.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,6 +231,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\Bed\BedInsert_Update.resx">
+      <DependentUpon>BedInsert_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Bed\BedManage.resx">
+      <DependentUpon>BedManage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>

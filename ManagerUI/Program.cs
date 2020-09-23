@@ -1,4 +1,5 @@
 ﻿using ManagerUI.UI;
+using ManagerUI.UI.Bed;
 using ManagerUI.UI.Outlet;
 using ManagerUI.UI.Room;
 using ManagerUI.UI.Users;
@@ -20,7 +21,7 @@ namespace ManagerUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RoomManage());
+            Application.Run(new BedManage());
         }
     }
 }

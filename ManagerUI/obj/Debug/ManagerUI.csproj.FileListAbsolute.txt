@@ -159,3 +159,5 @@ F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.csproj.CopyComplete
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.exe
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.pdb
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Room.RoomInsert_Update.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedManage.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedInsert_Update.resources

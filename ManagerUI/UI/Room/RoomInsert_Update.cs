@@ -132,5 +132,10 @@ namespace ManagerUI.UI.Room
         {
             Update(trans.ID_PHONG);
         }
+
+        private void cancel_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
