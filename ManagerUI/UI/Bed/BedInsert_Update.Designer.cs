@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new ReaLTaiizor.Controls.GroupBox();
+            this.idg = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.skyLabel5 = new ReaLTaiizor.Controls.SkyLabel();
             this.idp = new ReaLTaiizor.Controls.ForeverTextBox();
             this.skyLabel3 = new ReaLTaiizor.Controls.SkyLabel();
             this.mota = new ReaLTaiizor.Controls.ForeverTextBox();
@@ -36,8 +38,6 @@
             this.cancel_btn = new ReaLTaiizor.Controls.HopeButton();
             this.insert_btn = new ReaLTaiizor.Controls.HopeButton();
             this.skyLabel2 = new ReaLTaiizor.Controls.SkyLabel();
-            this.idg = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.skyLabel5 = new ReaLTaiizor.Controls.SkyLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +69,34 @@
             this.groupBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             this.groupBox1.TabIndex = 4;
             this.groupBox1.Text = "Thêm/ Cập nhật giường";
+            // 
+            // idg
+            // 
+            this.idg.BackColor = System.Drawing.Color.Transparent;
+            this.idg.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
+            this.idg.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+            this.idg.FocusOnHover = false;
+            this.idg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.idg.Location = new System.Drawing.Point(313, 161);
+            this.idg.MaxLength = 32767;
+            this.idg.Multiline = false;
+            this.idg.Name = "idg";
+            this.idg.ReadOnly = true;
+            this.idg.Size = new System.Drawing.Size(344, 34);
+            this.idg.TabIndex = 26;
+            this.idg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.idg.UseSystemPasswordChar = false;
+            // 
+            // skyLabel5
+            // 
+            this.skyLabel5.AutoSize = true;
+            this.skyLabel5.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.skyLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
+            this.skyLabel5.Location = new System.Drawing.Point(81, 161);
+            this.skyLabel5.Name = "skyLabel5";
+            this.skyLabel5.Size = new System.Drawing.Size(125, 28);
+            this.skyLabel5.TabIndex = 25;
+            this.skyLabel5.Text = "ID Giường";
             // 
             // idp
             // 
@@ -131,7 +159,7 @@
             this.update_btn.Size = new System.Drawing.Size(234, 56);
             this.update_btn.SuccessColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.update_btn.TabIndex = 6;
-            this.update_btn.Text = "Cập nhật phòng";
+            this.update_btn.Text = "Cập nhật giường";
             this.update_btn.TextColor = System.Drawing.Color.Black;
             this.update_btn.WarningColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(162)))), ((int)(((byte)(60)))));
             this.update_btn.Click += new System.EventHandler(this.update_btn_Click);
@@ -173,7 +201,7 @@
             this.insert_btn.Size = new System.Drawing.Size(234, 56);
             this.insert_btn.SuccessColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.insert_btn.TabIndex = 4;
-            this.insert_btn.Text = "Thêm phòng";
+            this.insert_btn.Text = "Thêm giường";
             this.insert_btn.TextColor = System.Drawing.Color.Black;
             this.insert_btn.WarningColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(162)))), ((int)(((byte)(60)))));
             this.insert_btn.Click += new System.EventHandler(this.insert_btn_Click);
@@ -188,34 +216,6 @@
             this.skyLabel2.Size = new System.Drawing.Size(73, 28);
             this.skyLabel2.TabIndex = 1;
             this.skyLabel2.Text = "Mô tả";
-            // 
-            // idg
-            // 
-            this.idg.BackColor = System.Drawing.Color.Transparent;
-            this.idg.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
-            this.idg.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-            this.idg.FocusOnHover = false;
-            this.idg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.idg.Location = new System.Drawing.Point(313, 161);
-            this.idg.MaxLength = 32767;
-            this.idg.Multiline = false;
-            this.idg.Name = "idg";
-            this.idg.ReadOnly = true;
-            this.idg.Size = new System.Drawing.Size(344, 34);
-            this.idg.TabIndex = 26;
-            this.idg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.idg.UseSystemPasswordChar = false;
-            // 
-            // skyLabel5
-            // 
-            this.skyLabel5.AutoSize = true;
-            this.skyLabel5.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skyLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(137)))));
-            this.skyLabel5.Location = new System.Drawing.Point(81, 161);
-            this.skyLabel5.Name = "skyLabel5";
-            this.skyLabel5.Size = new System.Drawing.Size(125, 28);
-            this.skyLabel5.TabIndex = 25;
-            this.skyLabel5.Text = "ID Giường";
             // 
             // BedInsert_Update
             // 

@@ -117,11 +117,10 @@ namespace SPA_API.Controllers
 
             return Ok(cHITIET_GIUONG);
         }
-        // DELETE: api/CHITIET_GIUONG with multiple 
-        public async Task<IHttpActionResult> DeleteCHITIET_GIUONG(int id,int sr)
+        public async Task<IHttpActionResult> DeleteCHITIET_GIUONG(CHITIET_GIUONG t)
         {
 
-            CHITIET_GIUONG cHITIET_GIUONG = await db.CHITIET_GIUONG.FindAsync(id,sr);
+            CHITIET_GIUONG cHITIET_GIUONG = await db.CHITIET_GIUONG.FindAsync(t.ID_GIUONG,t.ID_DICHVU);
             if (cHITIET_GIUONG == null)
             {
                 return NotFound();

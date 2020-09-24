@@ -115,7 +115,9 @@ namespace ManagerUI.UI.Bed
 
         private void chiTiếtGiườngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            BedService frm = new BedService();
+            frm.id_phong = (int)UserView.SelectedRows[0].Cells[0].Value;
+            frm.ShowDialog();
         }
         public int status;
         public GIUONG trans;
@@ -171,7 +173,7 @@ namespace ManagerUI.UI.Bed
 
         private async void DeleteChiTietGiuong(int idgiuong)
         {
-            DeleteServiceAsync(idgiuong);
+            //DeleteServiceAsync(idgiuong);
             string basepath = ProvidingConnection.basepath;
             string path = basepath + "/api/" + "GIUONGs/"+idgiuong.ToString();
             HttpClient client = new HttpClient();
@@ -182,7 +184,7 @@ namespace ManagerUI.UI.Bed
         }
         private void xoáGiườngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            DeleteChiTietGiuong(Convert.ToInt32(phong_cmb.Text));
         }
     }
 }

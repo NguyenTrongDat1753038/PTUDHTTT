@@ -161,3 +161,5 @@ F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.pdb
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Room.RoomInsert_Update.resources
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedManage.resources
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedInsert_Update.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedService.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedServiceInsert_Delete.resources

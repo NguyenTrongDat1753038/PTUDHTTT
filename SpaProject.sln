@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerUI", "ManagerUI\Mana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA_API", "SPA_API\SPA_API\SPA_API.csproj", "{5509AB02-77E0-4ADF-9E62-F89BD11C4311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaProject", "SpaProject\SpaProject.csproj", "{873DCBD9-690D-4735-969B-76B15A25E5AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaProject", "SpaProject\SpaProject\SpaProject.csproj", "{873DCBD9-690D-4735-969B-76B15A25E5AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
