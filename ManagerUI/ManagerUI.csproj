@@ -159,6 +159,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Register.cs" />
+    <Compile Include="UI\Appointment\ApmentDetails.cs" />
+    <Compile Include="UI\Appointment\ApmentDetails.designer.cs">
+      <DependentUpon>ApmentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Appointment\ApmentInsert_Update_Details.cs" />
+    <Compile Include="UI\Appointment\ApmentInsert_Update_Details.designer.cs">
+      <DependentUpon>ApmentInsert_Update_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Appointment\ApmentsInsert_Update.cs" />
+    <Compile Include="UI\Appointment\ApmentsInsert_Update.designer.cs">
+      <DependentUpon>ApmentsInsert_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Appointment\Apment_Addservices.cs" />
+    <Compile Include="UI\Appointment\Apment_Addservices.designer.cs">
+      <DependentUpon>Apment_Addservices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Appointment\ManageApments.cs" />
+    <Compile Include="UI\Appointment\ManageApments.Designer.cs">
+      <DependentUpon>ManageApments.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Bed\BedInsert_Update.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -217,11 +237,11 @@
       <DependentUpon>RoomManage.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Services\Services.cs" />
-    <Compile Include="UI\Services\Services.Designer.cs">
+    <Compile Include="UI\Services\Services.designer.cs">
       <DependentUpon>Services.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Services\ServicesInsert_Update.cs" />
-    <Compile Include="UI\Services\ServicesInsert_Update.Designer.cs">
+    <Compile Include="UI\Services\ServicesInsert_Update.designer.cs">
       <DependentUpon>ServicesInsert_Update.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Users\UserDetail.cs">
@@ -251,6 +271,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\Appointment\ApmentDetails.resx">
+      <DependentUpon>ApmentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Appointment\ApmentInsert_Update_Details.resx">
+      <DependentUpon>ApmentInsert_Update_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Appointment\ApmentsInsert_Update.resx">
+      <DependentUpon>ApmentsInsert_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Appointment\Apment_Addservices.resx">
+      <DependentUpon>Apment_Addservices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Appointment\ManageApments.resx">
+      <DependentUpon>ManageApments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Bed\BedInsert_Update.resx">
       <DependentUpon>BedInsert_Update.cs</DependentUpon>
     </EmbeddedResource>
@@ -313,9 +348,7 @@
       <Name>SPA_API</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UI\NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

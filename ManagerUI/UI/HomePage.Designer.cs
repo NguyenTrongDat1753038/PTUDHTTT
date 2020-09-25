@@ -69,6 +69,7 @@
             this.Appoint_btn.Text = "Appointments";
             this.Appoint_btn.TextColor = System.Drawing.Color.White;
             this.Appoint_btn.WarningColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(162)))), ((int)(((byte)(60)))));
+            this.Appoint_btn.Click += new System.EventHandler(this.Appoint_btn_Click);
             // 
             // Service_btn
             // 
@@ -187,7 +188,7 @@
             this.panel_scr.TabIndex = 21;
             this.panel_scr.TopMost = true;
             // 
-            // MainMenu
+            // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -204,7 +205,7 @@
             this.Controls.Add(this.User_btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.HelpButton = true;
-            this.Name = "MainMenu";
+            this.Name = "HomePage";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

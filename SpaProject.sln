@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerUI", "ManagerUI\Mana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA_API", "SPA_API\SPA_API\SPA_API.csproj", "{5509AB02-77E0-4ADF-9E62-F89BD11C4311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaProject", "SpaProject\SpaProject\SpaProject.csproj", "{873DCBD9-690D-4735-969B-76B15A25E5AE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA.Tests", "SPA.Tests\SPA.Tests.csproj", "{B7412B9F-CF0D-4B8E-9762-877711260CEE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,16 +21,6 @@ Global
 		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5509AB02-77E0-4ADF-9E62-F89BD11C4311}.Release|Any CPU.Build.0 = Release|Any CPU
-		{873DCBD9-690D-4735-969B-76B15A25E5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{873DCBD9-690D-4735-969B-76B15A25E5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{873DCBD9-690D-4735-969B-76B15A25E5AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{873DCBD9-690D-4735-969B-76B15A25E5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{873DCBD9-690D-4735-969B-76B15A25E5AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{873DCBD9-690D-4735-969B-76B15A25E5AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{B7412B9F-CF0D-4B8E-9762-877711260CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7412B9F-CF0D-4B8E-9762-877711260CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7412B9F-CF0D-4B8E-9762-877711260CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7412B9F-CF0D-4B8E-9762-877711260CEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

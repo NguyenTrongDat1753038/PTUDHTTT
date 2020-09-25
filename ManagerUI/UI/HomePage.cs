@@ -32,12 +32,26 @@ namespace ManagerUI.UI
 
         private void Room_btn_Click(object sender, EventArgs e)
         {
-
+            panel_scr.Controls.Clear();
+            panel_scr.Visible = true;
+            Room.RoomManage myForm = new Room.RoomManage();
+            myForm.TopLevel = false;
+            myForm.AutoScroll = true;
+            this.panel_scr.Controls.Add(myForm);
+            myForm.FormBorderStyle = FormBorderStyle.None;
+            myForm.Show();
         }
 
         private void Bed_btn_Click(object sender, EventArgs e)
         {
-
+            panel_scr.Controls.Clear();
+            panel_scr.Visible = true;
+            Bed.BedManage myForm = new Bed.BedManage();
+            myForm.TopLevel = false;
+            myForm.AutoScroll = true;
+            this.panel_scr.Controls.Add(myForm);
+            myForm.FormBorderStyle = FormBorderStyle.None;
+            myForm.Show();
         }
 
         private void Outlet_btn_Click(object sender, EventArgs e)
@@ -54,12 +68,31 @@ namespace ManagerUI.UI
 
         private void Service_btn_Click(object sender, EventArgs e)
         {
-
+            panel_scr.Controls.Clear();
+            panel_scr.Visible = true;
+            Services.Services myForm = new Services.Services();
+            myForm.TopLevel = false;
+            myForm.AutoScroll = true;
+            this.panel_scr.Controls.Add(myForm);
+            myForm.FormBorderStyle = FormBorderStyle.None;
+            myForm.Show();
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Appoint_btn_Click(object sender, EventArgs e)
+        {
+            panel_scr.Controls.Clear();
+            panel_scr.Visible = true;
+            Appointment.ManageApments myForm = new Appointment.ManageApments();
+            myForm.TopLevel = false;
+            myForm.AutoScroll = true;
+            this.panel_scr.Controls.Add(myForm);
+            myForm.FormBorderStyle = FormBorderStyle.None;
+            myForm.Show();
         }
     }
 }

@@ -165,3 +165,8 @@ F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedService.resources
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Bed.BedServiceInsert_Delete.resources
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Services.Services.resources
 F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Services.ServicesInsert_Update.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Appointment.ApmentDetails.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Appointment.ApmentInsert_Update_Details.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Appointment.ApmentsInsert_Update.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Appointment.Apment_AddSV_HLV.resources
+F:\PTUDHTTT\ManagerUI\obj\Debug\ManagerUI.UI.Appointment.ManageApments.resources
