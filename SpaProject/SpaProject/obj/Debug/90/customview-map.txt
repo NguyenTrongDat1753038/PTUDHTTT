@@ -8,7 +8,7 @@ Button;obj\Debug\90\res\layout\giohang.xml
 Button;obj\Debug\90\res\layout\home.xml
 Button;obj\Debug\90\res\layout\lichhen.xml
 Button;obj\Debug\90\res\layout\register.xml
-cache-path;D:\WORK\Study\HK3-2020\PTUD HTTT\SpaProjectXamarin\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;F:\PTUDHTTT\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 CalendarView;obj\Debug\90\res\layout\register.xml
 CheckBox;obj\Debug\90\res\layout\register.xml
 color;obj\Debug\90\res\values\colors.xml
@@ -17,8 +17,8 @@ corners;obj\Debug\90\res\drawable\custom_button.xml
 DatePicker;obj\Debug\90\res\layout\lichhen.xml
 EditText;obj\Debug\90\res\layout\activity_main.xml
 EditText;obj\Debug\90\res\layout\register.xml
-external-cache-path;D:\WORK\Study\HK3-2020\PTUD HTTT\SpaProjectXamarin\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;D:\WORK\Study\HK3-2020\PTUD HTTT\SpaProjectXamarin\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;F:\PTUDHTTT\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;F:\PTUDHTTT\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageButton;obj\Debug\90\res\layout\home.xml
@@ -39,7 +39,7 @@ ListView;obj\Debug\90\res\layout\dichvu.xml
 ListView;obj\Debug\90\res\layout\giohang.xml
 menu;obj\Debug\90\res\menu\toolbarheader.xml
 padding;obj\Debug\90\res\drawable\custom_button.xml
-paths;D:\WORK\Study\HK3-2020\PTUD HTTT\SpaProjectXamarin\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;F:\PTUDHTTT\SpaProject\SpaProject\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RadioButton;obj\Debug\90\res\layout\register.xml
 RadioGroup;obj\Debug\90\res\layout\register.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_main.xml

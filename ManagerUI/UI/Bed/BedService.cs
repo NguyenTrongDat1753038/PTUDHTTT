@@ -84,6 +84,7 @@ namespace ManagerUI.UI.Bed
             string path = basepath + "/api/" + "CHITIET_GIUONG";
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(basepath);
+
             MessageBox.Show("Xoá thành công");
             //string result = await delete.Content.ReadAsStringAsync();
         }

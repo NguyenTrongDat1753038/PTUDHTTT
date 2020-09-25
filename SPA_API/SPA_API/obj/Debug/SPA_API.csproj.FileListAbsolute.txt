@@ -321,4 +321,3 @@ F:\PTUDHTTT\SPA_API\SPA_API\obj\Debug\SPA_API.csproj.CoreCompileInputs.cache
 F:\PTUDHTTT\SPA_API\SPA_API\obj\Debug\SPA_API.csproj.CopyComplete
 F:\PTUDHTTT\SPA_API\SPA_API\obj\Debug\SPA_API.dll
 F:\PTUDHTTT\SPA_API\SPA_API\obj\Debug\SPA_API.pdb
-F:\PTUDHTTT\SPA_API\SPA_API\obj\Debug\SPA_API.csprojAssemblyReference.cache

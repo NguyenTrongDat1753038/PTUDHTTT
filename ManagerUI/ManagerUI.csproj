@@ -216,6 +216,14 @@
     <Compile Include="UI\Room\RoomManage.Designer.cs">
       <DependentUpon>RoomManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Services\Services.cs" />
+    <Compile Include="UI\Services\Services.Designer.cs">
+      <DependentUpon>Services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Services\ServicesInsert_Update.cs" />
+    <Compile Include="UI\Services\ServicesInsert_Update.Designer.cs">
+      <DependentUpon>ServicesInsert_Update.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Users\UserDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -270,6 +278,12 @@
     <EmbeddedResource Include="UI\Room\RoomManage.resx">
       <DependentUpon>RoomManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Services\Services.resx">
+      <DependentUpon>Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Services\ServicesInsert_Update.resx">
+      <DependentUpon>ServicesInsert_Update.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Users\UserDetail.resx">
       <DependentUpon>UserDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -299,7 +313,9 @@
       <Name>SPA_API</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="UI\NewFolder1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
